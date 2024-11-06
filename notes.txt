@@ -1,0 +1,15 @@
+TODO:
+
+- Add authentication and authorization.
+- Add more UT (unit tests) and IT (integration tests).
+- Add more input validation to Reading class and others.
+- Add ws (websockets) for new readings if high volume of data is expected.
+- Add api documentation.
+- Add more routes to the API (ex. delete retentionPolicy)
+
+Classes:
+
+    Reading (implemented)
+        Attributes: ownerOrganizationId, deviceId, readingTypeId, data, timestamp
+        Methods: validateInputs(), toJSON()
+    TODO: Device, Organization, ReadingType, RetentionPolicy
